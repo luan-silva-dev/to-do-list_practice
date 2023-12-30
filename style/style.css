@@ -1,0 +1,97 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(161, 158, 158);
+}
+
+.title h1{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    margin: 30px 0;
+}
+
+.new-task{
+    padding: 15px 10px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.input-box div{
+    color: rgb(248, 64, 64);
+    font-size: 13px;
+}
+
+.new-task input[type=text]{
+    width: 35%;
+    padding: 12px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+}
+
+.new-task button{
+    margin-top: 10px;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 16px;    
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.box-tasks{
+    width: 100%;
+    max-width: 400px;
+    padding: 20px 10px;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+
+.box-tasks h2{
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.list-tasks{
+    list-style: none;
+    transition: 1s;
+    width: 100%;
+    position: relative;
+}
+
+.li-task{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 15px;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 17px;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.btn-exit{
+    float: right;
+    padding: 4px 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-exit:hover{
+    background-color: rgb(111, 6, 6);
+}
